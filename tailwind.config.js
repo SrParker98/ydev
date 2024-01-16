@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/**/*.{html,js}", "./components/**/*.{html,js}"],
+  content: [
+    "./src/**/*.html",
+    "./src/**/*.js",
+    "./public/**/*.html",
+    "./public/**/*.js",
+  ],
   theme: {
     extend: {
       backgroundImage: {
@@ -10,7 +15,7 @@ module.exports = {
         "font-exo": ["Exo 2", "sans-serif"],
       },
       opacity: {
-        64: "64",
+        64: ".64",
       },
       backgroundOpacity: {
         64: "64",
@@ -25,6 +30,10 @@ module.exports = {
       },
       height: {
         35: "35px",
+      },
+      fontSize: {
+        h2: "40px",
+        h3: "20px",
       },
       spacing: {
         landing: "590px",
@@ -41,6 +50,12 @@ module.exports = {
       colors: {
         "btn-background": "#E2E200",
         "charging-bar": " #E2E2E2 ",
+        "border-color": "#DFDDDA",
+        "price-span": "#A1A1A1",
+        "span-4": "#F94711",
+        "span-3b": "#2582CA",
+        "span-3y": "#EBF227",
+        "bg-opacity": "rgb(0 0 0 50%)",
       },
     },
   },

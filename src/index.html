@@ -5,58 +5,530 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="/src/styles.css" />
-    <link href="/src/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="flex col-auto justify-center">
-    <!-- Div con el background -->
-    <div
-      class="w-landingW bg-center h-landing bg-cover bg-no-repeat bg-[url('/assets/landing-pictures/img1.png')]"
-    >
-      <!-- Div con el gradient para el background -->
-      <div
-        class="absolute z-0 w-landingW h-landing bg-gradient-to-r from-black to-white mix-blend-multiply opacity-64"
-      ></div>
-      <!-- container con el título y el párrafo -->
-      <div
-        class="relative z-10 flex-col px-79px h-landing justify-center items-center"
-      >
-        <span
-          class="w-full text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold"
-        >
-          Novedades 2024
-        </span>
-        <h1
-          class="w-full text-white text-opacity-100 opacity-1 font-font-exo uppercase italic font-bold"
-        >
-          nueva e350
-        </h1>
-        <p class="text-white text-opacity-100 opacity-1 font-ligh">
-          Et repellendus rerum est rerum voluptas et doloremque voluptates. At
-          quia voluptatem ut tempora beatae aut ipsum quae qui rerum debitis eos
-          necessitatibus voluptas ab aspernatur tempora ut dignissimos quod
-        </p>
-        <button
-          class="w-130 relative h-35 p-1 mt-45 bg-btn-background text-black text-opacity-100 opacity-1 uppercase italic font-bold"
-        >
-          DESCÚBRELA
-        </button>
-        <div class="flex !p-[75px] gap-60">
-          <a
-            class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-130 h-7 border-b-2 border-charging-bar"
-            href=""
-            >NUEVA E350</a
-          ><a
-            class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-130 h-7 border-b-2 border-charging-bar"
-            href=""
-            >CITA EN TALLER</a
-          ><a
-            class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-153 h-7 border-b-2 border-charging-bar"
-            href=""
-            >SCOOTERS ZONTES</a
+  <body class="flex flex-col justify-center items-center">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div
+            class="w-landingW bg-center h-landing bg-cover bg-no-repeat bg-[url('/assets/landing-pictures/img1.png')]"
           >
+            <!-- Div con el gradient para el background -->
+            <div
+              class="absolute z-0 w-landingW h-landing bg-gradient-to-r from-black to-white mix-blend-multiply opacity-64"
+            ></div>
+            <!-- container con el título y el párrafo -->
+            <div
+              class="relative z-10 flex-col px-79px h-landing justify-center mt-177 leading-normal"
+            >
+              <span
+                class="w-full text-white text-opacity-100 opacity-1 uppercase italic size-16 font-bold"
+              >
+                Novedades 2024
+              </span>
+              <h1
+                class="w-full text-white text-opacity-100 opacity-1 uppercase italic font-bold m-0 leading-normal"
+              >
+                nueva e350
+              </h1>
+              <p class="text-white text-opacity-100 opacity-1 font-ligh w-[462px]">
+                Et repellendus rerum est rerum voluptas et doloremque
+                voluptates. At quia voluptatem ut tempora beatae aut ipsum quae
+                qui rerum debitis eos necessitatibus voluptas ab aspernatur
+                tempora ut dignissimos quod
+              </p>
+              <button
+                class="w-130 relative h-35 p-1 mt-[38px] bg-btn-background text-black text-opacity-100 opacity-1 uppercase italic font-bold"
+              >
+                DESCÚBRELA
+              </button>
+              <div class="flex pt-53 gap-60">
+                <a
+                  class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-130 h-7"
+                  href=""
+                  >NUEVA E350
+                  <div class="progress-bar">
+                    <div class="progress-bar-value start"></div></div></a
+                ><a
+                  class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-130 h-7"
+                  href=""
+                  >CITA EN TALLER</a
+                ><a
+                  class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-153 h-7"
+                  href=""
+                  >SCOOTERS ZONTES</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="swiper-slide">
+          <div
+            class="w-landingW bg-center h-landing bg-cover bg-no-repeat bg-[url('/assets/landing-pictures/second-slide.webp')]"
+          >
+            <!-- Div con el gradient para el background -->
+            <div
+              class="absolute z-0 w-landingW h-landing bg-gradient-to-r from-black to-white mix-blend-multiply opacity-64"
+            ></div>
+            <!-- container con el título y el párrafo -->
+            <div
+              class="relative z-10 flex-col px-79px h-landing justify-center mt-177 leading-normal"
+            >
+              <span
+                class="w-full text-white text-opacity-100 opacity-1 uppercase italic size-16 font-bold"
+              >
+                Novedades 2024
+              </span>
+              <h1
+                class="w-full text-white text-opacity-100 opacity-1 uppercase italic font-bold m-0 leading-normal"
+              >
+                nueva e350
+              </h1>
+              <p class="text-white text-opacity-100 opacity-1 font-ligh  w-[462px]">
+                Et repellendus rerum est rerum voluptas et doloremque
+                voluptates. At quia voluptatem ut tempora beatae aut ipsum quae
+                qui rerum debitis eos necessitatibus voluptas ab aspernatur
+                tempora ut dignissimos quod
+              </p>
+              <button
+                class="w-130 relative h-35 p-1 mt-[38px] bg-btn-background text-black text-opacity-100 opacity-1 uppercase italic font-bold"
+              >
+                DESCÚBRELA
+              </button>
+              <div class="flex pt-53 gap-60">
+                <a
+                  class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-130 h-7"
+                  href=""
+                  >NUEVA E350 </a
+                ><a
+                  class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-130 h-7"
+                  href=""
+                  >CITA EN TALLER
+                  <div class="progress-bar">
+                    <div
+                      class="progress-bar-value progress-bar-value-1"
+                    ></div></div></a
+                ><a
+                  class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-153 h-7"
+                  href=""
+                  >SCOOTERS ZONTES</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div
+            class="w-landingW bg-center h-landing bg-cover bg-no-repeat bg-[url('/assets/landing-pictures/third-slide.webp')]"
+          >
+            <!-- Div con el gradient para el background -->
+            <div
+              class="absolute z-0 w-landingW h-landing bg-gradient-to-r from-black to-white mix-blend-multiply opacity-64"
+            ></div>
+            <!-- container con el título y el párrafo -->
+            <div
+              class="relative z-10 flex-col px-79px h-landing justify-center mt-177 leading-normal"
+            >
+              <span
+                class="w-full text-white text-opacity-100 opacity-1 uppercase italic size-16 font-bold"
+              >
+                Novedades 2024
+              </span>
+              <h1
+                class="w-full text-white text-opacity-100 opacity-1 uppercase italic font-bold m-0 leading-normal"
+              >
+                nueva e350
+              </h1>
+              <p class="text-white text-opacity-100 opacity-1 font-ligh  w-[462px]">
+                Et repellendus rerum est rerum voluptas et doloremque
+                voluptates. At quia voluptatem ut tempora beatae aut ipsum quae
+                qui rerum debitis eos necessitatibus voluptas ab aspernatur
+                tempora ut dignissimos quod
+              </p>
+              <button
+                class="w-130 relative h-35 p-1 mt-[38px] bg-btn-background text-black text-opacity-100 opacity-1 uppercase italic font-bold"
+              >
+                DESCÚBRELA
+              </button>
+              <div class="flex pt-53 gap-60">
+                <a
+                  class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-130 h-7"
+                  href=""
+                  >NUEVA E350 </a
+                ><a
+                  class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-130 h-7"
+                  href=""
+                  >CITA EN TALLER</a
+                ><a
+                  class="text-white text-opacity-100 opacity-1 font-font-exo uppercase italic size-16 font-bold relative w-153 h-7"
+                  href=""
+                  >SCOOTERS ZONTES
+                  <div class="progress-bar">
+                    <div
+                      class="progress-bar-value progress-bar-value-2"
+                    ></div></div
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        ...
       </div>
     </div>
+
+    <div class="catalogo h-[1293px] w-landingW mt-[32px] bg-white px-[80px]">
+      <div class="w-full h-[80px] items-end flex justify-between">
+        <h2
+          class="tracking-normal flex items-center italic font-bold w-[500px] h-[48px] uppercase text-h2"
+        >
+          Modelos destacados
+        </h2>
+        <a
+          class="w-180 relative h-35 pt-[7px] pb-[9px] pr-[17px] pl-[18px] mt-[38px] bg-btn-background text-black text-opacity-100 opacity-1 uppercase italic font-bold"
+          href=""
+          >VER MÁS MODELOS</a
+        >
+      </div>
+      
+<!-- Segundo swiper -->
+
+<div class="swiper2 mySwiper2 mt-[30px]">
+  <div class="swiper-wrapper">
+    <div class=" swiper-slide border-solid border">
+      <div
+      id="swiper-style2"
+      class=" border-solid border-[1px] border-border-color h-[373px] w-[265px] flex items-center flex-col"
+    >
+    <span class="absolute right-0 top-0 h-[27px] w-[86px] bg-black  text-white italic font-bold size-[14px] uppercase text-[14px] flex items-center justify-center">Nueva</span>
+      <img
+        class="w-[233px] h-[155px] mt-[20px]"
+        src="/assets/catalog/img1.png"
+        alt=""
+      />
+      <h3 class="font-bold uppercase italic text-h3 mt-[34px] h-[24px]">
+        zontes e350 2024
+      </h3>
+      <div class="flex gap-[7px] mt-[10px]">
+        <input class="rounded-full border border-border-color bg-black w-[22px] h-[22px]" type="button" value="" />
+        <input class="rounded-full border border-border-color bg-white w-[22px] h-[22px]" type="button" value="" />
+      </div>
+      <div class="prices flex flex-col items-center p-0">
+        <span
+          class="font-light line-through italic text-price-span mt-[21px] leading-normal"
+          >5.999€</span
+        >
+        <span class="font-bold uppercase italic text-[30px]">4.999€</span>
+      </div>
+    </div></div>
+
+
+
+
+
+    <div class="swiper-slide border-solid border "><div
+      id="swiper-style2"
+      class=" border-solid border-[1px] border-border-color h-[373px] w-[265px] flex items-center flex-col"
+    >
+      <img
+        class="w-[233px] h-[155px] mt-[20px]"
+        src="/assets/catalog/img2.png"
+        alt=""
+      />
+      <h3 class="font-bold uppercase italic text-h3 mt-[34px]">
+        zontes zt 125 2024
+      </h3>
+      <div class="flex gap-[7px] mt-[10px]">
+        <input class="rounded-full border border-border-color bg-black w-[22px] h-[22px]" type="button" value="" />
+        <input class="rounded-full border border-border-color bg-white w-[22px] h-[22px]" type="button" value="" />
+      </div>
+      <div class="prices flex flex-col items-center p-0">
+        <span
+          class="font-light line-through italic text-price-span mt-[21px] leading-normal"
+          >5.999€</span
+        >
+        <span class="font-bold uppercase italic text-[30px]">4.999€</span>
+      </div>
+    </div></div>
+
+
+
+
+
+
+    <div class="swiper-slide border-solid border"><div
+      id="swiper-style2"
+      class=" border-solid border-[1px] border-border-color h-[373px] w-[265px] flex items-center flex-col"
+    >
+      <img
+        class="w-[233px] h-[155px] mt-[20px]"
+        src="/assets/catalog/img4.png"
+        alt=""
+      />
+      <h3 class="font-bold uppercase italic text-h3 mt-[34px]">
+        zontes z2 125 2024
+      </h3>
+      <div class="flex gap-[7px] mt-[10px]">
+        <input class="rounded-full border border-border-color bg-span-3b w-[22px] h-[22px]" type="button" value="" />
+        <input class="rounded-full border border-border-color bg-span-3y w-[22px] h-[22px]" type="button" value="" />
+      </div>
+      <div class="prices flex flex-col items-center p-0">
+        <span
+          class="font-light line-through italic text-price-span mt-[21px] leading-normal"
+          >5.999€</span
+        >
+        <span class="font-bold uppercase italic text-[30px]">4.999€</span>
+      </div>
+    </div></div>
+
+
+
+
+
+
+    <div class="swiper-slide border-solid border"><div
+      id="swiper-style2"
+      class=" border-solid border-[1px] border-border-color h-[373px] w-[265px] flex items-center flex-col"
+    >
+    <span class="absolute right-0 top-0 h-[27px] w-[86px] bg-black  text-white italic font-bold size-[14px] uppercase text-[14px] flex items-center justify-center">Nueva</span>
+      <img
+        class="w-[233px] h-[155px] mt-[20px]"
+        src="/assets/catalog/img3.png"
+        alt=""
+      />
+      <h3 class="font-bold uppercase italic text-h3 mt-[34px]">
+        zontes t350 x 2024
+      </h3>
+      <div class="flex gap-[7px] mt-[10px]">
+        <input class="rounded-full border border-border-color bg-black w-[22px] h-[22px]" type="button" value="" />
+        <input class="rounded-full border border-border-color bg-span-4 w-[22px] h-[22px]" type="button" value="" />
+      </div>
+      <div class="prices flex flex-col items-center p-0">
+        <span
+          class="font-light line-through italic text-price-span mt-[21px] leading-normal"
+          >5.999€</span
+        >
+        <span class="font-bold uppercase italic text-[30px]">4.999€</span>
+      </div>
+    </div></div>
+
+
+
+
+
+    <div class="swiper-slide border-solid border"><div
+      id="swiper-style2"
+      class=" border-solid border-[1px] border-border-color h-[373px] w-[265px] flex items-center flex-col"
+    >
+      <img
+        class="w-[233px] h-[155px] mt-[20px]"
+        src="/assets/catalog/img1.png"
+        alt=""
+      />
+      <h3 class="font-bold uppercase italic text-h3 mt-[34px]">
+        zontes e350 2024
+      </h3>
+      <div class="flex gap-[7px] mt-[10px]">
+        <input class="rounded-full border border-border-color bg-black w-[22px] h-[22px]" type="button" value="" />
+        <input class="rounded-full border border-border-color bg-white w-[22px] h-[22px]" type="button" value="" />
+      </div>
+      <div class="prices flex flex-col items-center p-0">
+        <span
+          class="font-light line-through italic text-price-span mt-[21px] leading-normal"
+          >5.999€</span
+        >
+        <span class="font-bold uppercase italic text-[30px]">4.999€</span>
+      </div>
+    </div></div>
+
+
+
+
+
+    <div class="swiper-slide border-solid border"><div
+      id="swiper-style2"
+      class=" border-solid border-[1px] border-border-color h-[373px] w-[265px] flex items-center flex-col"
+    >
+      <img
+        class="w-[233px] h-[155px] mt-[20px]"
+        src="/assets/catalog/img1.png"
+        alt=""
+      />
+      <h3 class="font-bold uppercase italic text-h3 mt-[34px]">
+        zontes e350 2024
+      </h3>
+      <div class="flex gap-[7px] mt-[10px]">
+        <input class="rounded-full border border-border-color bg-black w-[22px] h-[22px]" type="button" value="" />
+        <input class="rounded-full border border-border-color bg-white w-[22px] h-[22px]" type="button" value="" />
+      </div>
+      <div class="prices flex flex-col items-center p-0">
+        <span
+          class="font-light line-through italic text-price-span mt-[21px] leading-normal"
+          >5.999€</span
+        >
+        <span class="font-bold uppercase italic text-[30px]">4.999€</span>
+      </div>
+    </div></div>
+
+
+
+    <div class="swiper-slide border-solid border"><div
+      id="swiper-style2"
+      class=" border-solid border-[1px] border-border-color h-[373px] w-[265px] flex items-center flex-col"
+    >
+      <img
+        class="w-[233px] h-[155px] mt-[20px]"
+        src="/assets/catalog/img1.png"
+        alt=""
+      />
+      <h3 class="font-bold uppercase italic text-h3 mt-[34px]">
+        zontes e350 2024
+      </h3>
+      <div class="flex gap-[7px] mt-[10px]">
+        <input class="rounded-full border border-border-color bg-black w-[22px] h-[22px]" type="button" value="" />
+        <input class="rounded-full border border-border-color bg-white w-[22px] h-[22px]" type="button" value="" />
+      </div>
+      <div class="prices flex flex-col items-center p-0">
+        <span
+          class="font-light line-through italic text-price-span mt-[21px] leading-normal"
+          >5.999€</span
+        >
+        <span class="font-bold uppercase italic text-[30px]">4.999€</span>
+      </div>
+    </div></div>
+
+
+
+
+    <div class="swiper-slide border-solid border"><div
+      id="swiper-style2"
+      class=" border-solid border-[1px] border-border-color h-[373px] w-[265px] flex items-center flex-col"
+    >
+      <img
+        class="w-[233px] h-[155px] mt-[20px]"
+        src="/assets/catalog/img1.png"
+        alt=""
+      />
+      <h3 class="font-bold uppercase italic text-h3 mt-[34px]">
+        zontes e350 2024
+      </h3>
+      <div class="flex gap-[7px] mt-[10px]">
+        <input class="rounded-full border border-border-color bg-black w-[22px] h-[22px]" type="button" value="" />
+        <input class="rounded-full border border-border-color bg-white w-[22px] h-[22px]" type="button" value="" />
+      </div>
+      <div class="prices flex flex-col items-center p-0">
+        <span
+          class="font-light line-through italic text-price-span mt-[21px] leading-normal"
+          >5.999€</span
+        >
+        <span class="font-bold uppercase italic text-[30px]">4.999€</span>
+      </div>
+    </div></div>
+
+
+
+
+
+    <div class="swiper-slide border-solid border"><div
+      id="swiper-style2"
+      class=" border-solid border-[1px] border-border-color h-[373px] w-[265px] flex items-center flex-col"
+    >
+      <img
+        class="w-[233px] h-[155px] mt-[20px]"
+        src="/assets/catalog/img1.png"
+        alt=""
+      />
+      <h3 class="font-bold uppercase italic text-h3 mt-[34px]">
+        zontes e350 2024
+      </h3>
+      <div class="flex gap-[7px] mt-[10px]">
+        <input class="rounded-full border border-border-color bg-black w-[22px] h-[22px]" type="button" value="" />
+        <input class="rounded-full border border-border-color bg-white w-[22px] h-[22px]" type="button" value="" />
+      </div>
+      <div class="prices flex flex-col items-center p-0">
+        <span
+          class="font-light line-through italic text-price-span mt-[21px] leading-normal"
+          >5.999€</span
+        >
+        <span class="font-bold uppercase italic text-[30px]">4.999€</span>
+      </div>
+    </div></div>
+
+
+
+
+
+  </div>
+  <div class="swiper-scrollbar"></div>
+</div>
+
+<div class="footer flex flex-col items-center">
+  <span class="mt-[60px] uppercase text-btn-background italic font-bold text-[20px] h-[19px]  ">Concesionario oficial</span>
+  <h2 class="mt-[10px] italic font-bold uppercase text-[40px] h-[48px]">motos.tech valencia</h2>
+  <p id="" class=" mt-[30px] text-[16px] text-[#151515] w-[1020px]">Lorem ipsum dolor sit amet. In iste nisi ea internos quia rem odio eaque sit nisi odio sed minus totam et nostrum iusto. Qui aliquam adipisci sed ipsum quia ut sunt totam est mollitia voluptatem ea rerum rerum. A nesciunt nisi.</p>
+  <p class="mt-[30px] text-[16px] text-[#151515]"> Est nemo debitis sit consequatur eius non obcaecati incidunt.</p>
+  <div class="footer-pictures flex mt-[42px] gap-[19px]">
+
+    <div class="flex items-center justify-center text-white w-[266px] h-[147px]  bg-center  bg-no-repeat bg-[url('/assets/footer/img1-f.png')] relative">
+      <div class="bg-black w-full h-full absolute opacity-50"></div>
+      <div class=" w-[266px] h-[147px]  relative">
+        <span class="absolute text-white mt-[55px] ml-[62px] uppercase h-[36px] w-[144px] italic font-bold tracking-[0.9px] text-[30px]">Alquiler</span>
+      </div>
+
+      
+    </div>
+
+
+    <div class="flex items-center justify-center text-white w-[266px] h-[147px] bg-center bg-cover bg-no-repeat bg-[url('/assets/footer/img2-f.webp')] relative">
+      <div class="bg-black w-full h-full absolute opacity-50"></div>
+      <div class=" w-[266px] h-[147px]  relative">
+        <span class="absolute text-white mt-[55px] ml-[62px] uppercase h-[36px] w-[144px] italic font-bold tracking-[0.9px] text-[30px]">Renting</span>
+      </div>
+
+      
+    </div>
+
+    <div class="flex items-center justify-center text-white w-[266px] h-[147px] bg-no-repeat  bg-[url('/assets/footer/img4-f.jpg')] relative">
+      <div class="bg-black w-full h-full absolute opacity-50"></div>
+      <div class=" w-[266px] h-[147px]  relative">
+        <span class="absolute text-white mt-[38px] ml-[77px] uppercase h-[66px] w-[113px] italic font-bold tracking-[0.9px] text-[30px] leading-[1em] ">cita en taller</span>
+      </div>
+
+      
+    </div>
+
+    <div class="flex items-center justify-center text-white w-[266px] h-[147px] bg-no-repeat  bg-center bg-cover bg-[url('/assets/landing-pictures/second-slide.webp')] relative">
+      <div class="bg-black w-full h-full absolute opacity-50"></div>
+      <div class=" w-[266px] h-[147px]  relative">
+        <span class="absolute text-white mt-[55px] ml-[62px] uppercase h-[36px] w-[144px] italic font-bold tracking-[0.9px] text-[30px]">motos</span>
+      </div>
+
+      
+    </div>
+
+
+  </div>
+</div>
+    
+    
+    <script src="/src/swiper.js"></script>
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+
+      const swiper = new Swiper();
+
+      
+    
+    </script>
   </body>
 </html>
